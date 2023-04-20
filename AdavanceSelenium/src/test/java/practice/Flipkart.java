@@ -20,6 +20,7 @@ public class Flipkart {
 	driver.manage().window().maximize();
 	driver.get("http://www.flipkart.com/");
 	driver.findElement(By.xpath("[Text()='✕']")).click();
+		//push and pull
 	
 
 }
